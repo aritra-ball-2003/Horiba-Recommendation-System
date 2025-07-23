@@ -1,6 +1,12 @@
-
+Swarm
 streamlit
 streamlit-option-menu
 pandas
 numpy
-...
+typing
+openai
+pdfminer.six
+Agent
+logging
+os
+

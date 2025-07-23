@@ -73,7 +73,7 @@ def main():
     # Sidebar navigation
     with st.sidebar:
         st.image("https://img.icons8.com/resume", width=50)
-        st.title("AI Recruiter Agency")
+        st.title("Horiba product support AI")
         selected = option_menu(
             menu_title="Navigation",
             options=["Upload Requirements_pdf", "About"],
@@ -83,7 +83,7 @@ def main():
         )
 
     if selected == "Upload Requirements_pdf":
-        st.header("📄 Requirement PDF Analysis")
+        st.header("📄 Product Recomendation from pdf")
         st.write("Upload a requirements PDF to get AI-powered recommendation and product matches.")
 
         uploaded_file = st.file_uploader(

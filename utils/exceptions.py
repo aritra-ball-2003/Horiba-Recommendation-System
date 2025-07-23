@@ -32,3 +32,8 @@ class RecommendationError(Requirements_pdfProcessingError):
     """Raised when generating recommendations fails"""
 
     pass
+
+# utils/exceptions.py
+class Requirements_pdfProcessingError(Exception):
+    """Raised when PDF requirement processing fails."""
+    pass
